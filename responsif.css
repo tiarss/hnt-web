@@ -1,0 +1,60 @@
+@media (max-width:1000px){
+    nav{
+        background-color: rgba(255, 255, 255);
+    }
+    main{
+        flex-direction: column;
+        padding: 20px;
+        
+    }
+    .content, aside{
+        border-radius: 20px;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    aside{
+        margin-top: 20px;
+        height: auto;
+    }
+    footer h1{
+        font-size: 20px;
+    }
+    footer a,footer span{
+        font-size: 13px;
+    }
+    
+}
+@media (max-width:700px){
+    .burger{
+        display: block;
+        transition: all 0.4s;
+
+    }
+    nav ul{
+        background-color: rgba(255, 255, 255);
+        position: absolute;
+        z-index: -1;
+        padding: 20px 0px;
+        border-radius: 10px;
+        top: -300px;
+        right: 0;
+        margin: 0;
+        flex-direction: column;
+        transition: all 0.4s;
+    }
+    nav ul a {
+        width: 100%;
+        border-radius: 0;
+    }
+    nav .slide{
+        transition: all 0.4s;
+        top: 40px;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+@media (max-width:500px){
+    
+}
